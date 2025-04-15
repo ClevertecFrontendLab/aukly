@@ -1,0 +1,35 @@
+.header {
+    background-color: #ffffd3;
+    padding: 0 16px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+.userInfo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 5px;
+}
+.info {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.name {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 156%;
+    color: #000;
+}
+.subname {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: rgba(0, 0, 0, 0.64);
+}

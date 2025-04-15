@@ -1,0 +1,43 @@
+.topMenu {
+    padding: 8px 12px;
+    height: 48px;
+    border: none;
+}
+.btnSort {
+    border: 1px solid rgba(0, 0, 0, 0.48);
+    border-radius: 6px;
+    padding: 0 12px;
+}
+p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 133%;
+}
+.version {
+    font-family: var(--font-family);
+    margin: 16px 0;
+    color: rgba(0, 0, 0, 0.24);
+    font-weight: 500;
+}
+.clever {
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.64);
+}
+.imageNew {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.imageHot {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.btnMobile {
+    display: none !important;
+}
+@media (min-device-width: 360px) and (max-device-width: 767px) {
+    .btnMobile {
+        display: inline-flex !important;
+    }
+}
