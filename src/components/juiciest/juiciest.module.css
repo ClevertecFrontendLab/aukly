@@ -1,0 +1,39 @@
+.topMenu {
+    padding: 8px 12px;
+    height: 48px;
+    border: none;
+}
+
+/* img
+{
+    margin-right: 10px;
+} */
+.btnSort {
+    border: 1px solid rgba(0, 0, 0, 0.48);
+    border-radius: 6px;
+    padding: 0 12px;
+}
+p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 133%;
+}
+.version {
+    margin: 16px 0;
+    color: rgba(0, 0, 0, 0.24);
+    font-weight: 500;
+}
+.clever {
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.64);
+}
+.imageNew {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.imageHot {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
